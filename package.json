@@ -4,7 +4,10 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "dev": "nodemon ./bin/www"
+    "dev": "nodemon ./bin/www",
+    "seed:users": "node ./bin/seeds/user.seed.js",
+    "seed:trips": "node ./bin/seeds/trip.seed.js",
+    "seed:all": "npm run seed:users && npm run seed:trips"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
