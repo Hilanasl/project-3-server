@@ -8,12 +8,15 @@ const cors = require("cors");
 
 const indexRouter = require("./routes/index");
 const usersRouter = require("./routes/users");
+//const authRouter = require("./routes/auth");
+
 
 const app = express();
 
 app.use(
   cors({
     origin: "http://localhost:3000",
+    credentials: true
   })
 );
 
@@ -26,5 +29,7 @@ app.use(express.static(path.join(__dirname, "public")));
 
 app.use("/", indexRouter);
 app.use("/users", usersRouter);
+//app.use("/", authRouter);
+
 
 module.exports = app;
