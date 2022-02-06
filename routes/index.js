@@ -26,7 +26,7 @@ router.get("/trips/:id", (req, res, next) => {
   Trip.findById(req.params.id)
     .populate("days")
     .populate("author")
-    .populate('image')
+    .populate("image")
     .then((dbRes) => {
       console.log("this is back:", dbRes);
       res.status(200).json(dbRes);
