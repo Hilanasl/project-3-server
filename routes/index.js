@@ -32,20 +32,15 @@ router.get("/trips/:id", (req, res, next) => {
       populate: { path: "activities", model: ActivityModel },
     })
     .populate("author")
+<<<<<<< HEAD
+=======
+    .populate("categories")
+>>>>>>> 952b84fbb7eac133c043f74c24f709bf57fdb27e
     .then((dbRes) => {
       res.status(200).json(dbRes);
     })
     .catch(next);
 });
 
-// router.get("/trips/:id", (req, res, next) => {
-//   Day.findById(req.params.id)
-//     .populate("activities")
-//     .then((dbRes) => {
-//       console.log("this is back:", dbRes);
-//       res.status(200).json(dbRes);
-//     })
-//     .catch(next);
-// });
 
 module.exports = router;

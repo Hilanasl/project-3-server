@@ -6,9 +6,7 @@ const tripSchema = new Schema(
     {
         title: String,
         location: String,
-        categories: {
-            enum: ['budget', 'comfortable', 'luxury', 'family', 'adventure', 'culture', 'shopping', 'romantic', 'party', 'gastronomic', 'nature']
-        },
+        categories: [String],
         description: String,
         image: [String],
         days: [{ type: Schema.Types.ObjectId, ref: 'days' }],
