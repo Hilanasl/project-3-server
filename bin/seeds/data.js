@@ -6,7 +6,11 @@ const trips = [
     description:
       "Fun weekend for two people exploring museums and tourist spots",
     image: [
-       'https://www.thetrainline.com/cms/media/1360/france-eiffel-tower-paris.jpg?mode=crop&width=1080&height=1080&quality=70', 'https://www.museopicassomalaga.org/sites/default/files/styles/slider_home/public/slider-home/dialogos_1_679.jpg', 'https://en.parisinfo.com/var/otcp/sites/images/node_43/node_51/node_77884/node_77888/mus%C3%A9e-national-picasso-paris-h%C3%B4tel-sal%C3%A9-%7C-630x405-%7C-%C2%A9-mus%C3%A9e-national-picasso-paris-voyez-vous-chlo%C3%A9-vollmer-lo/21064174-1-fre-FR/Mus%C3%A9e-National-Picasso-Paris-H%C3%B4tel-Sal%C3%A9-%7C-630x405-%7C-%C2%A9-Mus%C3%A9e-National-Picasso-Paris-Voyez-Vous-Chlo%C3%A9-Vollmer-Lo.jpg', "https://www.sortiraparis.com/images/80/83517/615140-visuel-paris-louvre.jpg", 'https://www.metalocus.es/sites/default/files/styles/mopis_news_carousel_item_desktop/public/metalocus_christo_arco-del-triunfo_paris_04.jpg?itok=oentB9AW'
+      "https://www.thetrainline.com/cms/media/1360/france-eiffel-tower-paris.jpg?mode=crop&width=1080&height=1080&quality=70",
+      "https://www.museopicassomalaga.org/sites/default/files/styles/slider_home/public/slider-home/dialogos_1_679.jpg",
+      "https://en.parisinfo.com/var/otcp/sites/images/node_43/node_51/node_77884/node_77888/mus%C3%A9e-national-picasso-paris-h%C3%B4tel-sal%C3%A9-%7C-630x405-%7C-%C2%A9-mus%C3%A9e-national-picasso-paris-voyez-vous-chlo%C3%A9-vollmer-lo/21064174-1-fre-FR/Mus%C3%A9e-National-Picasso-Paris-H%C3%B4tel-Sal%C3%A9-%7C-630x405-%7C-%C2%A9-Mus%C3%A9e-National-Picasso-Paris-Voyez-Vous-Chlo%C3%A9-Vollmer-Lo.jpg",
+      "https://www.sortiraparis.com/images/80/83517/615140-visuel-paris-louvre.jpg",
+      "https://www.metalocus.es/sites/default/files/styles/mopis_news_carousel_item_desktop/public/metalocus_christo_arco-del-triunfo_paris_04.jpg?itok=oentB9AW",
     ],
     days: [
       {
@@ -345,7 +349,7 @@ const trips = [
     image: [
       "https://media.istockphoto.com/photos/mucuripe-beach-at-sunset-fortaleza-ceara-state-brazil-picture-id970968140?k=20&m=970968140&s=612x612&w=0&h=KXSFDsRXh-V6QEMi8Ln2zXajXjTrG_3lDkyUXZ2bCCI=",
       "https://i.pinimg.com/originals/e7/59/ee/e759ee0ad85ef93649a71498aeef2dfa.png",
-      "https://todepassagem.clickbus.com.br/wp-content/uploads/2021/01Varanda-Tropical-1024x644.jpg",
+      "https://portalsabores.com.br/wp-content/uploads/2017/10/www.portalsabores.com.br-10-lugares-para-comer-caranguejo-em-fortaleza-caranguejo-da-barraca-terra-do-sol.jpg",
       "https://www.transportal.com.br/noticias/wp-content/uploads/2019/10/Barracas-na-Praia-do-Futuro.jpg",
       "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/96/81/a3.jpg",
     ],

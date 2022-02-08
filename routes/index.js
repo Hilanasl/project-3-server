@@ -5,7 +5,9 @@ const Trip = require("./../models/TripModel");
 const Day = require("./../models/DayModel");
 const User = require("./../models/UserModel");
 const Activity = require("./../models/ActivityModel");
-
+const TripModel = require("./../models/TripModel");
+const ActivityModel = require("./../models/ActivityModel");
+const DayModel = require("./../models/DayModel");
 
 /* GET home page. */
 router.get("/", function (req, res, next) {
@@ -24,11 +26,13 @@ router.get("/trips", (req, res, next) => {
 
 router.get("/trips/:id", (req, res, next) => {
   Trip.findById(req.params.id)
-    .populate("days")
+    .populate({
+      path: "days",
+      model: DayModel,
+      populate: { path: "activities", model: ActivityModel },
+    })
     .populate("author")
-    .populate("image")
     .then((dbRes) => {
-      console.log("this is back:", dbRes);
       res.status(200).json(dbRes);
     })
     .catch(next);
