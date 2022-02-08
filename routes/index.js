@@ -26,7 +26,7 @@ router.get("/trips/:id", (req, res, next) => {
   Trip.findById(req.params.id)
     .populate("days")
     .populate("author")
-    .populate("image")
+    .populate("categories")
     .then((dbRes) => {
       console.log("this is back:", dbRes);
       res.status(200).json(dbRes);
@@ -34,14 +34,5 @@ router.get("/trips/:id", (req, res, next) => {
     .catch(next);
 });
 
-// router.get("/trips/:id", (req, res, next) => {
-//   Day.findById(req.params.id)
-//     .populate("activities")
-//     .then((dbRes) => {
-//       console.log("this is back:", dbRes);
-//       res.status(200).json(dbRes);
-//     })
-//     .catch(next);
-// });
 
 module.exports = router;
