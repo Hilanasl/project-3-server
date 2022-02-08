@@ -4,7 +4,7 @@ const trips = [
         location: 'Paris, France',
         categories: ['romantic', 'culture'],
         description: 'Fun weekend for two people exploring museums and tourist spots',
-        image: ['https://www.sortiraparis.com/images/80/83517/615140-visuel-paris-louvre.jpg'],
+        image: ['https://www.sortiraparis.com/images/80/83517/615140-visuel-paris-louvre.jpg', 'https://www.sncf-connect.com/assets/styles/scale_max_width_961/public/media/2021-07/musee-picasso-paris-pns-susanne-kremer.jpg?itok=UOgJ2DPd','http://pnt.immo/wp-content/uploads/2015/12/champs_elysees.jpg'],
         days: [
             {number: 1,
             activities: [
