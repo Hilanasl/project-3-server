@@ -8,19 +8,18 @@ const cors = require("cors");
 
 const indexRouter = require("./routes/index");
 const usersRouter = require("./routes/users");
-//const authRouter = require("./routes/auth");
-
+const authRouter = require("./routes/auth");
 
 const app = express();
 
 app.use(
   cors({
-    origin: "http://localhost:3000",
-    credentials: true
+    origin: process.env.FRONTEND_URL || "http://localhost:3000",
+    credentials: true,
   })
 );
 
-// const isAuthenticated = require("./middlewares/jwt.middleware");
+const isAuthenticated = require("./middlewares/jwt.middleware");
 app.use(logger("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
@@ -28,8 +27,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
 
 app.use("/", indexRouter);
-app.use("/users", usersRouter);
-//app.use("/", authRouter);
-
+app.use("/", usersRouter);
+app.use("/api/auth", authRouter);
 
 module.exports = app;

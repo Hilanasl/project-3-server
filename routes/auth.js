@@ -3,7 +3,7 @@ const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const mongoose = require("mongoose");
 const isAuthenticated = require("../middlewares/jwt.middleware");
-const User = require("../models/User.model");
+const User = require("../models/UserModel");
 const saltRounds = 10;
 
 /**
