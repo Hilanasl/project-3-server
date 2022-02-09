@@ -1,10 +1,7 @@
 const express = require("express");
 var router = express.Router();
 const protectRoute = require("../middlewares/protectRoute");
-const Trip = require("./../models/TripModel");
-const Day = require("./../models/DayModel");
-const User = require("./../models/UserModel");
-const Activity = require("./../models/ActivityModel");
+const UserModel = require("./../models/UserModel");
 const TripModel = require("./../models/TripModel");
 const ActivityModel = require("./../models/ActivityModel");
 const DayModel = require("./../models/DayModel");
@@ -14,9 +11,8 @@ router.get("/", function (req, res, next) {
   res.render("index", { title: "Express" });
 });
 
-router.get("/trips", isAuthenticated, (req, res, next) => {
-  console.log(req.payload.username);
-  Trip.find()
+router.get("/trips", (req, res, next) => {
+  TripModel.find()
     .populate("days")
     .populate("author")
     .then((dbRes) => {
@@ -26,7 +22,7 @@ router.get("/trips", isAuthenticated, (req, res, next) => {
 });
 
 router.get("/trips/:id", (req, res, next) => {
-  Trip.findById(req.params.id)
+  TripModel.findById(req.params.id)
     .populate({
       path: "days",
       model: DayModel,
