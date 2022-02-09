@@ -53,7 +53,6 @@ const trips = [
     image: [
       "https://www.thetrainline.com/cms/media/1360/france-eiffel-tower-paris.jpg?mode=crop&width=1080&height=1080&quality=70",
       "https://www.museopicassomalaga.org/sites/default/files/styles/slider_home/public/slider-home/dialogos_1_679.jpg",
-      "https://en.parisinfo.com/var/otcp/sites/images/node_43/node_51/node_77884/node_77888/mus%C3%A9e-national-picasso-paris-h%C3%B4tel-sal%C3%A9-%7C-630x405-%7C-%C2%A9-mus%C3%A9e-national-picasso-paris-voyez-vous-chlo%C3%A9-vollmer-lo/21064174-1-fre-FR/Mus%C3%A9e-National-Picasso-Paris-H%C3%B4tel-Sal%C3%A9-%7C-630x405-%7C-%C2%A9-Mus%C3%A9e-National-Picasso-Paris-Voyez-Vous-Chlo%C3%A9-Vollmer-Lo.jpg",
       "https://www.sortiraparis.com/images/80/83517/615140-visuel-paris-louvre.jpg",
       "https://www.metalocus.es/sites/default/files/styles/mopis_news_carousel_item_desktop/public/metalocus_christo_arco-del-triunfo_paris_04.jpg?itok=oentB9AW",
     ],
@@ -582,7 +581,7 @@ const trips = [
         activities: [
           {
             title: "Bois de Vincennes",
-            address: "adress",
+            address: "Bois de vincennes",
             description:
               "Permenant collections are cool, but do the exhibitons",
           },
