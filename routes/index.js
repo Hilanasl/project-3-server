@@ -14,8 +14,7 @@ router.get("/", function (req, res, next) {
   res.render("index", { title: "Express" });
 });
 
-router.get("/trips", isAuthenticated, (req, res, next) => {
-  console.log(req.payload.username);
+router.get("/trips", (req, res, next) => {
   Trip.find()
     .populate("days")
     .populate("author")
