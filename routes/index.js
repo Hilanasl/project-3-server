@@ -36,4 +36,10 @@ router.get("/", function (req, res, next) {
 //     .catch(next);
 // });
 
+// router.delete("/trips/:id", (req, res, next) => {
+//   TripModel.findOneAndDelete(req.params.id)
+//     .then(trip => res.status(200).json(trip))
+//     .catch(next)
+// });
+
 module.exports = router;
