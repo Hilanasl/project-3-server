@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
 mongoose
-  .connect("mongodb://localhost/project-module-3")
+  .connect(process.env.MONGO_URI)
   .then((db) => console.log("DB connected"))
   .catch((e) => console.error(e));
