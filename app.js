@@ -31,7 +31,7 @@ app.use(express.static(path.join(__dirname, "public")));
 // app.get("/", (req, res) => res.send("server is running"));
 
 app.use("/", indexRouter);
-app.use("/users", usersRouter);
+app.use("/", usersRouter);
 app.use("/trips", tripsRouter);
 
 // app.use("/trips", require('./routes/trips'))

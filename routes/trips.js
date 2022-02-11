@@ -48,6 +48,7 @@ router.post(
     const daysIds = [];
 
     days.forEach(async (day, i) => {
+      // remplacer par for .. of
       try {
         // For each day an array of activities. insert many days of activities
         const activitiesForDb = await ActivityModel.insertMany(day);
