@@ -135,4 +135,13 @@ router.post(
   }
 );
 
+router.delete("/:id/delete", (req, res, next) => {
+  TripModel.findByIdAndDelete(req.params.id)
+    .then((trip) => {
+      res.status(200).json(trip);
+      console.log(trip);
+    })
+    .catch(next);
+});
+
 module.exports = router;
