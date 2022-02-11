@@ -10,7 +10,8 @@ const tripSchema = new Schema(
         description: String,
         image: [String],
         days: [{ type: Schema.Types.ObjectId, ref: 'days' }],
-        author: { type: Schema.Types.ObjectId, ref: 'users' }
+        author: { type: Schema.Types.ObjectId, ref: 'users' },
+        favedBy: [{ type: Schema.Types.ObjectId, ref: 'users'}]
     }
 );
 

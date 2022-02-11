@@ -8,6 +8,7 @@ const User = require('../../models/UserModel');
 
 
 const seed  = async () => {
+    
     try {
         await Trip.deleteMany()
         await Day.deleteMany()
