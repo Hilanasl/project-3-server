@@ -97,12 +97,7 @@ router.post(
     const image = req.file?.path || undefined;
     const daysIds = [];
 
-<<<<<<< HEAD
-    days.forEach(async (day, i) => {
-      // remplacer par for .. of
-=======
     const allPromises = days.map(async (day, i) => {
->>>>>>> 874dda9dd2d0ea78a9c4eed3a78426ba82bf826d
       try {
         // For each day an array of activities. insert many days of activities
         const activitiesForDb = await ActivityModel.insertMany(day);

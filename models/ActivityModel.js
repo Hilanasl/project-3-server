@@ -5,7 +5,7 @@ const activitySchema = new Schema({
   title: String,
   address: String,
   description: String,
-  //   coords: { type: "Point" },
+  coords: { type: String, enum: ["Point"], coordinates: [Number] },
 });
 
 const ActivityModel = mongoose.model("activities", activitySchema);
