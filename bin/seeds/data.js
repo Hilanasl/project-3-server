@@ -9,6 +9,9 @@ const trips = [
       "https://www.sortiraparis.com/images/80/83517/615140-visuel-paris-louvre.jpg",
       "https://www.sncf-connect.com/assets/styles/scale_max_width_961/public/media/2021-07/musee-picasso-paris-pns-susanne-kremer.jpg?itok=UOgJ2DPd",
       "http://pnt.immo/wp-content/uploads/2015/12/champs_elysees.jpg",
+      "https://www.parisinfo.com/var/otcp/sites/images/node_43/node_51/node_230/le-louvre-pyramide-cour-napol%C3%A9on-nuit-%7C-630x405-%7C-%C2%A9-thinkstock/37520-1-fre-FR/Le-Louvre-pyramide-cour-Napol%C3%A9on-nuit-%7C-630x405-%7C-%C2%A9-Thinkstock.jpg",
+      "https://www.parisselectbook.com/wp-content/uploads/2016/07/Fe%CC%82te-des-Tuileries-Grande-roue-UNE.jpg",
+      "https://resize-lejdd.lanmedia.fr/r/620,310,forcex,center-middle/img/var/europe1/storage/images/lejdd/jdd-paris/festivals-rooftops-escape-game-16-idees-de-sortie-dimanche-a-paris-pour-prolonger-lete-4063782/57557063-1-fre-FR/Festivals-rooftops-escape-game-16-idees-de-sortie-dimanche-a-Paris-pour-prolonger-l-ete.jpg",
     ],
     days: [
       {
@@ -450,8 +453,16 @@ const trips = [
     location: "Paris",
     categories: ["romantic", "comfortable"],
     description: "Charming walks with delicious breaks",
-    image:
+    image: [
       "https://upload.wikimedia.org/wikipedia/commons/c/c5/Le_sacre_coeur.jpg",
+      "https://www.parisinfo.com/var/otcp/sites/images/node_43/node_51/node_232/la-maison-rose-%7C-630x405-%7C-%C2%A9-studio-ttg/19371469-1-fre-FR/La-Maison-Rose-%7C-630x405-%7C-%C2%A9-Studio-TTG.jpg",
+      "https://1.bp.blogspot.com/-SedVevuz3J4/XsA0UBBkVMI/AAAAAAABHFs/lQgQP1nRGrAbpgQzFE54aKgJrFOy9PsnACLcBGAsYHQ/s1600/decouvrir-montmartre-0-paris-18.JPG",
+      "https://www.unjourdeplusaparis.com/wp-content/uploads/2016/11/jardin-des-tuileries-balade.jpg",
+      "https://www.sortiraparis.com/images/80/83517/480695-visuel-centre-pompidou.jpg",
+      "https://media.timeout.com/images/100023523/750/562/image.jpg",
+      "https://a.mktgcdn.com/p/_4RRzYOfEITLhqetoAWRIppUP5o76Zlzj_pQlddQ2Ts/1080x1080.jpg",
+    ],
+
     days: [
       {
         number: 1,
@@ -509,8 +520,14 @@ const trips = [
     location: "Paris",
     categories: ["luxury", "shopping", "culture"],
     description: "Spend your monney and open your eyes for magnificience",
-    image:
+    image: [
       "https://vivreparis.fr/wp-content/uploads/2021/12/palais-garneir.jpg",
+      "https://image.arrivalguides.com/x/14/bedc647ba767ce8cd31bd93f717d148e.jpg",
+      "https://offloadmedia.feverup.com/parissecret.com/wp-content/uploads/2021/11/17043816/COUV-ARTICLES-1920x1080-22-1-1024x576.jpg",
+      "https://www.sortiraparis.com/images/80/86929/464410-creatures-le-restaurant-ephemere-sur-la-terrasse-des-galeries-lafayette-les-photos.jpg",
+      "https://www.parisselectbook.com/wp-content/uploads/2018/07/thumbnail_Haussmann-toit-sous-les-fraises-c-Myr-Muratet-2.jpg",
+      "https://laduree-laduree-fr-storage.omn.proximis.com/Imagestorage/images/0/0/61cc52580be6f_Store_loc_CE_369_900x710.png",
+    ],
     days: [
       {
         number: 1,
@@ -540,8 +557,14 @@ const trips = [
     location: "Paris",
     categories: ["romantic", "nature", "comfortable", "budget", "culture"],
     description: "Pique-nique at Paris  ",
-    image:
+    image: [
       "https://static1.s123-cdn-static-a.com/uploads/3086630/2000_crop_5e4d2b9337da2_5e4bcf9d56a56.jpg",
+      "https://www.sortiraparis.com/images/80/83517/572222-visuel-paris-notre-dame.jpg",
+      "https://www.chalifert.fr/wp-content/uploads/2019/04/Cathedrale-Notre-Dame-nuit.jpg",
+      "https://www.transilien.com/sites/transilien/files/styles/manual_crop/public/2021-12/Mus%C3%A9e%20d%27Orsay.jpg?h=f87dcf60&itok=38D2pZhA",
+      "https://www.parisinfo.com/var/otcp/sites/images/media/1.-photos/52.-paris-en-image/jardin-du-luxembourg-850x540-c-otcp-david-lefranc/12223-1-fre-FR/Jardin-du-Luxembourg-850x540-C-OTCP-David-Lefranc.jpg",
+      "https://www.sortiraparis.com/images/80/1467/648826-l-aquarium-tropical-de-la-porte-doree-se-renouvelle.jpg",
+    ],
     days: [
       {
         number: 1,
