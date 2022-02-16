@@ -12,6 +12,7 @@ const trips = [
       "https://www.parisinfo.com/var/otcp/sites/images/node_43/node_51/node_230/le-louvre-pyramide-cour-napol%C3%A9on-nuit-%7C-630x405-%7C-%C2%A9-thinkstock/37520-1-fre-FR/Le-Louvre-pyramide-cour-Napol%C3%A9on-nuit-%7C-630x405-%7C-%C2%A9-Thinkstock.jpg",
       "https://www.parisselectbook.com/wp-content/uploads/2016/07/Fe%CC%82te-des-Tuileries-Grande-roue-UNE.jpg",
       "https://resize-lejdd.lanmedia.fr/r/620,310,forcex,center-middle/img/var/europe1/storage/images/lejdd/jdd-paris/festivals-rooftops-escape-game-16-idees-de-sortie-dimanche-a-paris-pour-prolonger-lete-4063782/57557063-1-fre-FR/Festivals-rooftops-escape-game-16-idees-de-sortie-dimanche-a-Paris-pour-prolonger-l-ete.jpg",
+      "https://vivreparis.fr/wp-content/uploads/2020/12/ile-saint-louis-paris.jpg",
     ],
     days: [
       {
@@ -60,6 +61,7 @@ const trips = [
       "https://www.metalocus.es/sites/default/files/styles/mopis_news_carousel_item_desktop/public/metalocus_christo_arco-del-triunfo_paris_04.jpg?itok=oentB9AW",
       "https://i.pinimg.com/originals/95/79/6f/95796fa889eaa10e02dbb21f26fda751.jpg",
       "https://www.bouillon-chartier.com/chartier_contents/uploads/2019/01/ambiance-montparnasse-restaurant.jpg",
+      "https://www.unjourdeplusaparis.com/wp-content/uploads/2014/05/marche-aux-fleurs-paris.jpg",
     ],
     days: [
       {
@@ -101,10 +103,13 @@ const trips = [
     categories: ["gastronomic", "culture"],
     description: "Long weekend of eating and not much else",
     image: [
+      "https://www.lameredefamille.com/wp-content/uploads/2021/12/Bonaparte-768x512.jpg",
       "https://lemenu.co/images/2573088ab447224380a398df41a7a637.jpg",
       "https://media.timeout.com/images/105504173/image.jpg",
       "https://d2mxp4084tp9n1.cloudfront.net/media/large/699PA2fwLm6IlWFR",
       "https://www.yonder.fr/sites/default/files/lestops/04-miznon-canal-quai-de-valmy-paris.jpg",
+      "https://www.pariszigzag.fr/wp-content/uploads/2020/07/stohrer-paris-zigzag.png",
+      "https://www.nyhabitat.com/fr/blog/wp-content/uploads/2013/07/rue-marais-paris-france.jpg",
     ],
     days: [
       {
