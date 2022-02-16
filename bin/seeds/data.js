@@ -58,6 +58,8 @@ const trips = [
       "https://www.museopicassomalaga.org/sites/default/files/styles/slider_home/public/slider-home/dialogos_1_679.jpg",
       "https://www.sortiraparis.com/images/80/83517/615140-visuel-paris-louvre.jpg",
       "https://www.metalocus.es/sites/default/files/styles/mopis_news_carousel_item_desktop/public/metalocus_christo_arco-del-triunfo_paris_04.jpg?itok=oentB9AW",
+      "https://i.pinimg.com/originals/95/79/6f/95796fa889eaa10e02dbb21f26fda751.jpg",
+      "https://www.bouillon-chartier.com/chartier_contents/uploads/2019/01/ambiance-montparnasse-restaurant.jpg",
     ],
     days: [
       {
@@ -527,6 +529,7 @@ const trips = [
       "https://www.sortiraparis.com/images/80/86929/464410-creatures-le-restaurant-ephemere-sur-la-terrasse-des-galeries-lafayette-les-photos.jpg",
       "https://www.parisselectbook.com/wp-content/uploads/2018/07/thumbnail_Haussmann-toit-sous-les-fraises-c-Myr-Muratet-2.jpg",
       "https://laduree-laduree-fr-storage.omn.proximis.com/Imagestorage/images/0/0/61cc52580be6f_Store_loc_CE_369_900x710.png",
+      "https://www.le-train-bleu.com/media/cache/jadro_resize/rc/EYQIgR751623763347/jadroRoot/medias/5aafbd3bc117c/le-train-bleu-008_2800x2100.jpg",
     ],
     days: [
       {
@@ -564,6 +567,7 @@ const trips = [
       "https://www.transilien.com/sites/transilien/files/styles/manual_crop/public/2021-12/Mus%C3%A9e%20d%27Orsay.jpg?h=f87dcf60&itok=38D2pZhA",
       "https://www.parisinfo.com/var/otcp/sites/images/media/1.-photos/52.-paris-en-image/jardin-du-luxembourg-850x540-c-otcp-david-lefranc/12223-1-fre-FR/Jardin-du-Luxembourg-850x540-C-OTCP-David-Lefranc.jpg",
       "https://www.sortiraparis.com/images/80/1467/648826-l-aquarium-tropical-de-la-porte-doree-se-renouvelle.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/89/FMarbeuf.jpg",
     ],
     days: [
       {
